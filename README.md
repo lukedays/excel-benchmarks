@@ -45,11 +45,11 @@ xloil install
   - Change parameter: `LoadModules=["xloil_addin"]`
 - Open `ROOT\Benchmarks.xlsm`
 - C#:
-  - Build CSharpAddin project with Debug configuration.
-  - Drag this file to Excel: `ROOT\CSharp\bin\Debug\net6.0-windows\CSharpAddin64.xll`
+  - Build CSharpAddin project with Release configuration.
+  - Drag this file to Excel: `ROOT\CSharp\bin\Release\net6.0-windows\CSharpAddin64.xll`
 - C++:
-  - Build CppAddin project with Debug configuration.
-  - Drag this file to Excel: `ROOT\Cpp\x64\Debug\CppAddin.xll`
+  - Build CppAddin project with Release configuration.
+  - Drag this file to Excel: `ROOT\Cpp\x64\Release\CppAddin.xll`
 - Python - xlwings:
   - On the xlwings tab inside Excel, add `ROOT\Python` to `PYTHONPATH`
   - On `UDF Modules parameter`, write `xlwings_addin`
