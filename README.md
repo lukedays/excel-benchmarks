@@ -18,12 +18,11 @@ Unfortunately I couldn't make a [JavaScript addin](https://docs.microsoft.com/en
 ### Sum a 10.000 x 100 matrix (1 million cells)
 
 Time in miliseconds:
-
 | Name   | Excel SUM(...) | C++ <br/>(xlladdins) | C# <br/>(Excel-DNA) | Python + Numba <br/>(xlOil) | Python + Numpy <br/>(xlOil) | Python Only<br/>(xlOil) | VBA   | Python + Numpy<br/> (xlwings) |
 | ------ | -------------- | -------------------- | ------------------- | --------------------------- | --------------------------- | ----------------------- | ----- | ----------------------------- |
-| Median | 3.2            | 10.5                 | 14.0                | 40.7                        | 40.1                        | 132.7                   | 241.1 | 924.4                         |
-
-<img src="images/2022-08-25-15-52-11.png" alt="test1" width="600"/>
+| Median | 3.2            | 10.4                 | 13.6                | 43.4                        | 43.8                        | 135.0                   | 245.7 | 930.6                         |
+|        |
+<img src="images/2022-08-25-16-12-30.png" alt="test1" width="600"/>
 
 ## How it works
 
