@@ -1,10 +1,6 @@
 import xloil as xlo
 import numpy as np
 
-# import xloil.debug
-
-# xloil.debug.exception_debug("pdb")
-
 
 @xlo.func
 def SumXloilNumpy(x: xlo.Array(float)) -> float:  # type: ignore
