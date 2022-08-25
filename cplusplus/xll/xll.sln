@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.36
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xll", "xll.vcxproj", "{367249BB-B8A3-4671-B095-A5DB904DBD6D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xll.t", "xll.t\xll.t.vcxproj", "{C013BEA7-348A-4906-9497-0224665D2BD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AFC96634-06B3-4799-A5C5-D9C9D26204FE}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\msbuild.yml = .github\workflows\msbuild.yml
+		NOTES.md = NOTES.md
+		Visualizers\oper.natvis = Visualizers\oper.natvis
+		portfile.cmake = portfile.cmake
+		README.md = README.md
+		setup.bat = setup.bat
+		talk.md = talk.md
+		vcpkg.json = vcpkg.json
+		xll-msvc16-x64-build.nuget.bat = xll-msvc16-x64-build.nuget.bat
+		xll-msvc16-x64.nuspec = xll-msvc16-x64.nuspec
+		xll.props = xll.props
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{CEA76B8C-B243-4647-B322-BABCE1EB0754}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CAF60559-7CD4-4152-B028-5885C2CF6B59}"
+	ProjectSection(SolutionItems) = preProject
+		images\gamma.png = images\gamma.png
+		images\tgamma.png = images\tgamma.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xll_project", "xll_project", "{C46D0140-431E-4CF7-A4A0-CAAC61759B6C}"
+	ProjectSection(SolutionItems) = preProject
+		xll_project\__TemplateIcon.ico = xll_project\__TemplateIcon.ico
+		xll_project\MyTemplate.vstemplate = xll_project\MyTemplate.vstemplate
+		xll_project\setup.bat = xll_project\setup.bat
+		xll_project\xll_project.cpp = xll_project\xll_project.cpp
+		xll_project\xll_project.filters = xll_project\xll_project.filters
+		xll_project\xll_project.h = xll_project\xll_project.h
+		xll_project\xll_project.vcxproj = xll_project\xll_project.vcxproj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{BB88180A-DB06-4725-B772-CF92FEA26A58}"
+	ProjectSection(SolutionItems) = preProject
+		Code Snippets\Visual C++\My Code Snippets\addin.snippet = Code Snippets\Visual C++\My Code Snippets\addin.snippet
+		Code Snippets\Visual C++\My Code Snippets\xllFunction.snippet = Code Snippets\Visual C++\My Code Snippets\xllFunction.snippet
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Debug|x64.ActiveCfg = Debug|x64
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Debug|x64.Build.0 = Debug|x64
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Debug|x86.Build.0 = Debug|Win32
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Release|x64.ActiveCfg = Release|x64
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Release|x64.Build.0 = Release|x64
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Release|x86.ActiveCfg = Release|Win32
+		{367249BB-B8A3-4671-B095-A5DB904DBD6D}.Release|x86.Build.0 = Release|Win32
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Debug|x64.ActiveCfg = Debug|x64
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Debug|x64.Build.0 = Debug|x64
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Debug|x86.Build.0 = Debug|Win32
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Release|x64.ActiveCfg = Release|x64
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Release|x64.Build.0 = Release|x64
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Release|x86.ActiveCfg = Release|Win32
+		{C013BEA7-348A-4906-9497-0224665D2BD2}.Release|x86.Build.0 = Release|Win32
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Debug|x64.ActiveCfg = Debug|x64
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Debug|x64.Build.0 = Debug|x64
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Debug|x86.ActiveCfg = Debug|Win32
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Debug|x86.Build.0 = Debug|Win32
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Release|x64.ActiveCfg = Release|x64
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Release|x64.Build.0 = Release|x64
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Release|x86.ActiveCfg = Release|Win32
+		{CEA76B8C-B243-4647-B322-BABCE1EB0754}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAF60559-7CD4-4152-B028-5885C2CF6B59} = {AFC96634-06B3-4799-A5C5-D9C9D26204FE}
+		{C46D0140-431E-4CF7-A4A0-CAAC61759B6C} = {AFC96634-06B3-4799-A5C5-D9C9D26204FE}
+		{BB88180A-DB06-4725-B772-CF92FEA26A58} = {AFC96634-06B3-4799-A5C5-D9C9D26204FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9B9CACA-267A-464F-84A4-37BE21BF0D9C}
+	EndGlobalSection
+EndGlobal

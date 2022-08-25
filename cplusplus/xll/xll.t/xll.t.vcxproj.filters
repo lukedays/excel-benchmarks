@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\xll\debug.cpp" />
+    <ClCompile Include="..\xll\defines.c" />
+    <ClCompile Include="oper.t.cpp" />
+    <ClCompile Include="utf8.t.cpp" />
+    <ClCompile Include="xll.t.cpp" />
+    <ClCompile Include="sref.t.cpp" />
+    <ClCompile Include="registry.t.cpp" />
+  </ItemGroup>
+</Project>
