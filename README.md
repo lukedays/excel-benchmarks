@@ -18,9 +18,10 @@ Unfortunately I couldn't make a [JavaScript addin](https://docs.microsoft.com/en
 Time in miliseconds:
 | Name   | Excel SUM(...) | C++<br>(xlladdins) | C#<br>(Excel-DNA) | Python + Numpy<br>(xlOil) | Python Only<br>(xlOil) | VBA   | Python + Numpy<br> (xlwings) |
 | ------ | -------------- | ------------------ | ----------------- | ------------------------- | ---------------------- | ----- | ---------------------------- |
-| Median | 4.0            | 11.9               | 13.9              | 41.1                      | 119.1                  | 241.0 | 916.6                        |
+| Median | 3.2            | 10.5               | 13.6              | 39.3                      | 121.6                  | 236.0 | 923.7                        |
 
-![image](https://user-images.githubusercontent.com/386899/186705835-10702311-0b60-4d74-96d7-bc831b27b03d.png)
+
+![image](https://user-images.githubusercontent.com/386899/186718886-259cd48c-e341-4987-938f-4b9480217df1.png)
 
 ## How it works
 
