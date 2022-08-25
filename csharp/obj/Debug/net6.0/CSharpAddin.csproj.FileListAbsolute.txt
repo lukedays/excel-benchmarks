@@ -1,0 +1,12 @@
+C:\Lucas\dev\excel-benchmarks\csharp\bin\Debug\net6.0\CSharpAddin.deps.json
+C:\Lucas\dev\excel-benchmarks\csharp\bin\Debug\net6.0\CSharpAddin.runtimeconfig.json
+C:\Lucas\dev\excel-benchmarks\csharp\bin\Debug\net6.0\CSharpAddin.dll
+C:\Lucas\dev\excel-benchmarks\csharp\bin\Debug\net6.0\CSharpAddin.pdb
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.csproj.AssemblyReference.cache
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.AssemblyInfoInputs.cache
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.AssemblyInfo.cs
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.csproj.CoreCompileInputs.cache
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.dll
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.pdb
+C:\Lucas\dev\excel-benchmarks\csharp\obj\Debug\net6.0\CSharpAddin.genruntimeconfig.cache

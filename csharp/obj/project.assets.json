@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ExcelDna.AddIn/1.6.0-rc1": {
+        "type": "package",
+        "dependencies": {
+          "ExcelDna.Integration": "[1.6.0-rc1]"
+        },
+        "build": {
+          "build/ExcelDna.AddIn.props": {},
+          "build/ExcelDna.AddIn.targets": {}
+        }
+      },
+      "ExcelDna.Integration/1.6.0-rc1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/ExcelDna.Integration.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ExcelDna.Integration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExcelDna.AddIn/1.6.0-rc1": {
+      "sha512": "sTGtxJEnZw3VMHn9hE/6By32JR+9FkHfR8gP+tumVVgsN6MKAgFsczSalDsNC0jVck9R/JjYcH5FhLsgbYY0Mw==",
+      "type": "package",
+      "path": "exceldna.addin/1.6.0-rc1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ExcelDna.AddIn.props",
+        "build/ExcelDna.AddIn.targets",
+        "content/ExcelDna-Template.dna",
+        "content/Properties/ExcelDna.Build.props",
+        "exceldna.addin.1.6.0-rc1.nupkg.sha512",
+        "exceldna.addin.nuspec",
+        "images/ExcelDna-nu.png",
+        "readme.txt",
+        "tools/net452/EnvDTE.dll",
+        "tools/net452/ExcelDna.AddIn.Tasks.dll",
+        "tools/net452/ExcelDna.Integration.dll",
+        "tools/net452/ExcelDna.xll",
+        "tools/net452/ExcelDna64.xll",
+        "tools/net452/Newtonsoft.Json.dll",
+        "tools/net452/install.ps1",
+        "tools/net452/uninstall.ps1",
+        "tools/net6.0-windows7.0/ExcelDna.AddIn.Tasks.dll",
+        "tools/net6.0-windows7.0/ExcelDna.Integration.dll",
+        "tools/net6.0-windows7.0/ExcelDna.xll",
+        "tools/net6.0-windows7.0/ExcelDna64.xll"
+      ]
+    },
+    "ExcelDna.Integration/1.6.0-rc1": {
+      "sha512": "SFqZoqASGkai/l+h/Uns7Vv8N+e5zoM6+eXzEaz4zxLHVx0xzna2SVou1XTdheiqMNA1puV80H+kueXDxZRNvA==",
+      "type": "package",
+      "path": "exceldna.integration/1.6.0-rc1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "exceldna.integration.1.6.0-rc1.nupkg.sha512",
+        "exceldna.integration.nuspec",
+        "images/ExcelDna-nu.png",
+        "lib/net452/ExcelDna.Integration.dll",
+        "lib/net6.0-windows7.0/ExcelDna.Integration.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ExcelDna.AddIn >= 1.6.0-rc1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Lucas\\dev\\excel-benchmarks\\csharp\\CSharpAddin.csproj",
+      "projectName": "CSharpAddin",
+      "projectPath": "C:\\Lucas\\dev\\excel-benchmarks\\csharp\\CSharpAddin.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Lucas\\dev\\excel-benchmarks\\csharp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "ExcelDna.AddIn": {
+            "target": "Package",
+            "version": "[1.6.0-rc1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
