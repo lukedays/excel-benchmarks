@@ -96,6 +96,7 @@
       <AdditionalOptions>/J /utf-8 %(AdditionalOptions)</AdditionalOptions>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <WholeProgramOptimization>true</WholeProgramOptimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
     </ClCompile>
     <Link>
       <AdditionalOptions>/WHOLEARCHIVE:xll %(AdditionalOptions)</AdditionalOptions>
