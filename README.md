@@ -8,6 +8,8 @@ Gathering benchmarks for Excel add-ins. Inspired by [The Benchmarks Game](https:
 - Python via [xlwings](https://www.xlwings.org/)
 - C# via [Excel-DNA](https://excel-dna.net/) - thanks for the help [@govert](https://github.com/govert)!
 - C++ via [xlladdins](https://github.com/xlladdins/xll) - credits to [@keithalewis](https://github.com/keithalewis)!
+- VBA
+- Native Excel Formulas
 
 Unfortunately I couldn't make a [JavaScript addin](https://docs.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview) to work. Suggestions welcome!
 
