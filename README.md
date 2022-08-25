@@ -18,11 +18,11 @@ Unfortunately I couldn't make a [JavaScript addin](https://docs.microsoft.com/en
 ### Sum a 10.000 x 100 matrix (1 million cells)
 
 Time in miliseconds:
-| Name   | Excel SUM(...) | C++<br>(xlladdins) | C#<br>(Excel-DNA) | Python + Numpy<br>(xlOil) | Python Only<br>(xlOil) | VBA   | Python + Numpy<br> (xlwings) |
-| ------ | -------------- | ------------------ | ----------------- | ------------------------- | ---------------------- | ----- | ---------------------------- |
-| Median | 3,2            | 10,4               | 13,1              | 38,6                      | 123,9                  | 244,3 | 929,5                        |
+| Name   | Excel SUM(...) | C++<br>(xlladdins) | C#<br>(Excel-DNA) | Python + Numba<br>(xlOil) | Python + Numpy<br>(xlOil) | Python Only<br>(xlOil) | VBA   | Python + Numpy<br> (xlwings) |
+| ------ | -------------- | ------------------ | ----------------- | ------------------------- | ------------------------- | ---------------------- | ----- | ---------------------------- |
+| Median | 3,2            | 10,7               | 13,8              | 40,9                      | 42,3                      | 142,7                  | 242,5 | 928,3                        |
 
-<img src="images/2022-08-25-14-32-17.png" alt="test1" width="600"/>
+<img src="images/2022-08-25-15-46-44.png" alt="test1" width="600"/>
 
 ## How it works
 
@@ -36,7 +36,7 @@ I changed it to run a 100 times in order to compute the statistics.
 - Install Python 3.10 ([pyenv](https://github.com/pyenv-win/pyenv-win) is a nice way to control versions)
 - Run the following commands in a terminal:
 ```
-pip install xloil xlwings
+pip install xloil xlwings numba icc-rt cffi --upgrade
 xlwings addin install
 xloil install
 ```
