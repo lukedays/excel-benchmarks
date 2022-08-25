@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xll", "Cpp\xll\xll.vcxproj"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAddin", "CSharp\CSharpAddin.csproj", "{52980728-8E5F-4E0B-9083-D6A12A29B47C}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonAddin", "Python\PythonAddin.pyproj", "{7F92EAAF-6655-4E33-B95A-A020135A18AC}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python", "Python\Python.pyproj", "{FBFC6898-6656-4041-8AEB-26768E6419F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,12 +57,12 @@ Global
 		{52980728-8E5F-4E0B-9083-D6A12A29B47C}.Release|x64.Build.0 = Release|Any CPU
 		{52980728-8E5F-4E0B-9083-D6A12A29B47C}.Release|x86.ActiveCfg = Release|Any CPU
 		{52980728-8E5F-4E0B-9083-D6A12A29B47C}.Release|x86.Build.0 = Release|Any CPU
-		{7F92EAAF-6655-4E33-B95A-A020135A18AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F92EAAF-6655-4E33-B95A-A020135A18AC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7F92EAAF-6655-4E33-B95A-A020135A18AC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{7F92EAAF-6655-4E33-B95A-A020135A18AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F92EAAF-6655-4E33-B95A-A020135A18AC}.Release|x64.ActiveCfg = Release|Any CPU
-		{7F92EAAF-6655-4E33-B95A-A020135A18AC}.Release|x86.ActiveCfg = Release|Any CPU
+		{FBFC6898-6656-4041-8AEB-26768E6419F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFC6898-6656-4041-8AEB-26768E6419F2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FBFC6898-6656-4041-8AEB-26768E6419F2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FBFC6898-6656-4041-8AEB-26768E6419F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFC6898-6656-4041-8AEB-26768E6419F2}.Release|x64.ActiveCfg = Release|Any CPU
+		{FBFC6898-6656-4041-8AEB-26768E6419F2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
