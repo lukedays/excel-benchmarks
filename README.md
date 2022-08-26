@@ -15,14 +15,14 @@ Unfortunately I couldn't make a [JavaScript addin](https://docs.microsoft.com/en
 
 ## Benchmarks
 
-### Sum a 10.000 x 100 matrix (1 million cells)
+### Sum a 1.000 x 1.000 matrix (1 million cells)
 
 Time in miliseconds:
-| Name   | Excel SUM(...) | C++ <br/>(xlladdins) | C# <br/>(Excel-DNA) | Python + Numba <br/>(xlOil) | Python + Numpy <br/>(xlOil) | Python Only<br/>(xlOil) | VBA   | Python + Numpy<br/> (xlwings) |
+| Name   | Excel SUM(...) | C++ <br/>(xlladdins) | C# <br/>(Excel-DNA) | Python + Numpy <br/>(xlOil) | Python + Numba <br/>(xlOil) | Python Only<br/>(xlOil) | VBA   | Python + Numpy<br/> (xlwings) |
 | ------ | -------------- | -------------------- | ------------------- | --------------------------- | --------------------------- | ----------------------- | ----- | ----------------------------- |
-| Median | 3.2            | 10.4                 | 13.6                | 43.4                        | 43.8                        | 135.0                   | 245.7 | 930.6                         |
-|        |
-<img src="images/2022-08-25-16-12-30.png" alt="test1" width="600"/>
+| Median | 3.2            | 10.1                 | 13.1                | 36.7                        | 38.6                        | 117.9                   | 239.5 | 893.5                         |
+
+<img src="images/2022-08-26-09-23-27.png" alt="test1" width="600"/>
 
 ## How it works
 
