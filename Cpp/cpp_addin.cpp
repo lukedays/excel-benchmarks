@@ -16,3 +16,14 @@ double WINAPI xll_sumcpp(_FPX *input)
 
     return concurrency::parallel_reduce(arr, arr + n, 0);
 }
+
+AddIn xai_donothing(
+    Function(XLL_DOUBLE, "xll_donothing", "DoNothing")
+    .Arguments({ Arg(XLL_FPX, "input", "") }));
+
+double WINAPI xll_donothing(_FPX* input)
+{
+#pragma XLLEXPORT
+    UNREFERENCED_PARAMETER(input);
+    return 0;
+}
